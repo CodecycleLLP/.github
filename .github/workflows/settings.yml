@@ -1,0 +1,110 @@
+name: Settings  # Name of the workflow
+
+on:
+  push:  # Trigger the workflow when a push event occurs
+    branches:
+      - main  # Only trigger the workflow when the push event occurs on the 'main' branch
+
+jobs:
+  settings:  # Name of the job
+    runs-on: ubuntu-latest  # Run the job on an Ubuntu environment
+
+    steps:  # List of steps to be executed in the job
+      - name: Checkout repository  # Step to checkout the repository
+        uses: actions/checkout@v4  # Use the 'actions/checkout' action to perform the checkout
+        with:
+          fetch-depth: 0  # Fetch all history for the repository
+
+      # - name: Get Repository Details  # Step to get repository details
+      #   run: |  # Run the following shell commands
+      #     echo "Repository Name: ${{ github.repository }}"  # Print the repository name
+      #     echo "Repository Owner: ${{ github.repository_owner }}"  # Print the repository owner
+      #     echo "Default Branch: ${{ github.ref }}"  # Print the default branch
+      #     echo "Event Type: ${{ github.event_name }}"  # Print the event type
+      #     echo "org: ${{ github.event.organization.login }}"  # Print the organization name
+      #     echo "org id": ${{ github.event.organization.id }}  # Print the organization ID
+      #     echo "repository: ${{ github.repository }}"  # Print the repository name
+      #     echo "repository_owner: ${{ github.repository_owner }}"  # Print the repository owner
+      #     echo "ref: ${{ github.ref }}"  # Print the default branch
+      #     echo "before: ${{ github.event.before }}"  # Print the before commit SHA
+      #     echo "after: ${{ github.event.after }}"  # Print the after commit SHA
+
+      - name: Send detail to Deno and update settings  # Step to send details to Deno and update settings
+        run: |
+          changed_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }})
+          echo "Changed files: $changed_files"
+          files=$(echo "$changed_files" | tr '\n' ',')
+          echo "Files: $files"
+          jsonc_file_changed=false
+          changed_jsonc_file_path=""
+          # before_content=""
+          # after_content=""
+          IFS=',' read -ra ADDR <<< "$files"
+          for file in "${ADDR[@]}"; do
+              if [[ $file == gh-workflows/*.json ]]; then
+                  jsonc_file_changed=true
+                  changed_jsonc_file_path=$file
+                  # before_content+="$(git show ${{ github.event.before }}:$file)\n\n"
+                  # after_content+="$(git show ${{ github.event.after }}:$file)\n\n"
+              fi
+          done
+          
+          if ! $jsonc_file_changed; then
+              echo "No file in gh-workflow with .json extension has changed"
+              exit 0
+          fi
+
+          if [ -z "$changed_jsonc_file_path" ]; then
+              echo "No file in gh-workflow with .json extension has changed and have path"
+              exit 0
+          fi
+
+          # if [[ -z "$before_content" || -z "$after_content" ]]; then
+          #   echo "Before or after content is empty. Exiting..."
+          #   exit 0
+          # fi
+
+          # before_content=$(echo "$before_content" | jq -Rs .)
+          # after_content=$(echo "$after_content" | jq -Rs .)
+          # echo "File content before:\n$before_content"
+          # echo "File content after:\n$after_content"
+          repository=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+          echo "Repository: $repository"
+          json=$(jq -n \
+                                      --arg repository "$repository" \
+                                      --arg repository_owner "${{ github.repository_owner }}" \
+                                      --arg default_branch "${{ github.ref }}" \
+                                      --arg event_type "${{ github.event_name }}" \
+                                      --arg organization "${{ github.event.organization.login }}" \
+                                      --arg organization_id "${{ github.event.organization.id }}" \
+                                      --arg before_commit "${{ github.event.before }}" \
+                                      --arg after_commit "${{ github.event.after }}" \
+                                      --arg file "$changed_jsonc_file_path" \
+                                      '{
+                                          repository: $repository,
+                                          repository_owner: $repository_owner,
+                                          default_branch: $default_branch,
+                                          event_type: $event_type,
+                                          organization: $organization,
+                                          organization_id: $organization_id,
+                                          before_commit: $before_commit,
+                                          after_commit: $after_commit,
+                                          file: $file
+                                      }')
+          for file in "${ADDR[@]}"; do
+            if [[ $file == gh-workflows/*.json ]]; then
+              echo "--------------------------------------------------"
+              echo "Filename: $file"
+              echo "--------------------------------------------------"
+              # Handle each changed JSON file here
+              # ...
+              curl -X POST https://gh-workflows.staytuned.company/gitops \
+                -H "Content-Type: application/json" \
+                -H "Authorization: Bearer ${{ secrets.API_TOKEN }}" \
+                -H "Event: updateJson" \
+                -d "$json" -o output.txt
+              echo "Operations:"
+              cat output.txt | jq
+              echo "--------------------------------------------------"
+            fi
+          done

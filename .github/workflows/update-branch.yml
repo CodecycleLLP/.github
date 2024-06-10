@@ -1,0 +1,41 @@
+# Name of the workflow
+name: Update branch
+
+# This workflow is triggered on push events to the main branch
+on:
+    push:
+        branches:
+            - main
+
+# Jobs that this workflow will run
+jobs:
+    # Name of the job
+    update-branch:
+        # The type of runner that the job will run on
+        runs-on: ubuntu-latest
+        # Steps represent a sequence of tasks that will be executed as part of the job
+        steps:
+            # This step checks out a copy of your repository
+            - name: Checkout code
+              uses: actions/checkout@v4
+            # This step updates the PR through the Deno Deploy API
+            - name: Update branch through Deno Deploy API
+              run: |
+                  # Create a JSON object with necessary data
+                  repository=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+                  echo "Repository: $repository"
+                  json=$(jq -n \
+                                      --arg ref "${{ github.ref }}" \
+                                      --arg org "${{ github.repository_owner }}" \
+                                      --arg repo "$repository" \
+                                      --arg organization_id "${{ github.event.organization.id }}" \
+                                      '{ref: $ref, organization: {login: $org, id: $organization_id}, repository: {name: $repo}}')
+                  # Send a POST request to the API
+                    curl -X POST https://gh-workflows.staytuned.company/gitops \
+                        -H "Content-Type: application/json" \
+                        -H "Authorization: Bearer ${{ secrets.API_TOKEN }}" \
+                        -H "Event: updateBranch" \
+                        -d "$json" -o output.txt
+                  # Print the output
+                  echo "Response from API:"
+                  cat output.txt | jq
