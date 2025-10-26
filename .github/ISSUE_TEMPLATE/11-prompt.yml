@@ -1,0 +1,33 @@
+name: Prompt 🤖
+description: Instruction for AI-driven process
+title: '|'
+type: 'Prompt 🤖'
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚀 Speed Leads, Ship Every Day.
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        As a
+        I want to
+        so that
+
+        ### Why this is important
+
+        1. 
+
+        ### Prompt File
+
+        1. [File Name](Link) - Brief description of the content
+
+        ### Acceptance Criteria
+
+        - [ ] 
+
+        ### Additional Context

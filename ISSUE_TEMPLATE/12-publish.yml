@@ -1,0 +1,46 @@
+name: Publish 📢
+description: Marketing workflow tracking
+title: '|'
+type: 'Publish 📢'
+projects: ["StaytunedLLP/54"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚀 Speed Leads, Ship Every Day.
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        As a
+        I want to
+        so that
+
+        ### Why this is important
+
+        1. 
+
+        ### Diagrams
+
+        1. [File/Diagram Name](Link) - Brief description of the diagram
+
+        ### Designs
+
+        1. [File/Design Name](Link) - Brief description of the design
+
+        ### Content File
+
+        1. [File/Content Name](Link) - Brief description of the content
+
+        ### Association
+
+        Feature #00
+        Story #00
+
+        ### Acceptance Criteria
+
+        - [ ] 
+
+        ### Additional Context

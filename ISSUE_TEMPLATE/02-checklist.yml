@@ -1,0 +1,33 @@
+name: Checklist ✅
+description: Stepwise process or review
+title: '|'
+type: 'Checklist ✅'
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚀 Speed Leads, Ship Every Day.
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        As a
+        I want to
+        so that
+
+        ### Why this is important
+
+        1. 
+
+        ### Document
+
+        1. [File Name](Link) - Brief description of the file
+
+        ### Acceptance Criteria
+
+        - [ ] 
+
+        ### Additional Context

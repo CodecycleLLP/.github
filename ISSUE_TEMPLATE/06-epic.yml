@@ -1,0 +1,36 @@
+name: Epic 🏔️
+description: Large work split into smaller tasks
+title: '|'
+type: 'Epic 🏔️'
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚀 Speed Leads, Ship Every Day.
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        ### Why this is important
+
+        1. 
+
+        ### Details
+
+        1. [File Name](Link) - Brief description of the file
+
+        ### Diagrams
+
+        1. [Diagram Name](Link) - Brief description of the diagram
+
+        ### Designs
+
+        1. [Design Name](Link) - Brief description of the design
+
+        ### Acceptance Criteria
+        - [ ] 
+
+        ### Additional context

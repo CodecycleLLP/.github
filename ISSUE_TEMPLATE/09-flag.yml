@@ -1,0 +1,54 @@
+name: Flag 🚩
+description: Feature flag or toggle
+title: '|'
+type: 'Flag 🚩'
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚀 Speed Leads, Ship Every Day.
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        **Flag name:** 
+        **Flag key:** 
+        **Owner:** 
+
+        ### Purpose
+        Describe why this feature flag exists and the expected behavior when enabled.
+
+        ### Rollout plan
+        - Target audience:
+        - Phased rollout (percentage / cohorts):
+        - Start date:
+        - Evaluation date:
+
+        ### Targeting / Criteria
+        - Conditions for enabling (user segment, environment, region, etc.)
+
+        ### Success Metrics
+        1. Metric name - measurement method & target
+
+        ### Monitoring & Alerting
+        - Metrics/logs to monitor
+        - Alerting thresholds and recipients
+
+        ### Rollback / Kill Switch
+        - Conditions that trigger rollback
+        - Steps to disable the flag immediately
+
+        ### Dependencies & Migration
+        - Services/components affected
+        - Any required data/schema migrations
+
+        ### Acceptance Criteria
+        - [ ] Flag created with correct key and default state
+        - [ ] Targeting rules implemented and tested
+        - [ ] Metrics and monitoring in place
+        - [ ] Rollback procedure documented and validated
+
+        ### Additional context

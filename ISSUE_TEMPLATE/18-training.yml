@@ -1,0 +1,37 @@
+name: Training 🏋️
+description: Learning or practice to improve skills
+title: '|'
+type: 'Training 🏋️'
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚀 Speed Leads, Ship Every Day.
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        As a learner
+        I want to do training
+        so that I can improve my skills in 
+
+        ### Why this is important
+
+        1. 
+
+        ### Prerequisites
+
+        1. 
+
+        ### Tools and Resources
+
+        1. 
+
+        ### Acceptance Criteria
+
+        - [ ] 
+
+        ### Additional Context

@@ -1,0 +1,57 @@
+name: Test 🧪
+description: Testing or quality assurance
+title: '|'
+type: 'Test 🧪'
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚀 Speed Leads, Ship Every Day.
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        Test Case ID: TC-000
+        Title: 
+
+        Purpose:
+        Brief description of what this test verifies.
+
+        Test Type:
+        - Functional / Regression / Smoke / Performance / Other
+
+        Preconditions:
+        1. 
+
+        Test Steps:
+        1. 
+
+        Test Data:
+        - 
+
+        Expected Result:
+        1. 
+
+        Actual Result:
+        1. 
+
+        Environment:
+        - Browser / OS / App version / Device
+
+        Severity:
+        - Critical / High / Medium / Low
+
+        Related Work:
+        Feature #00
+        Story #00
+
+        Acceptance Criteria:
+        - [ ] 
+
+        Attachments / Logs:
+        - Link to screenshots, recordings, or logs
+
+        Additional Notes:

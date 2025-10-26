@@ -1,0 +1,62 @@
+name: Security 🛡️
+description: Vulnerability or risk mitigation
+title: '|'
+type: 'Security 🛡️'
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚀 Speed Leads, Ship Every Day.
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        As a
+        I want to
+        so that
+
+        ### Security Concern Type
+        <!-- e.g., vulnerability, compliance, best practice, incident -->
+
+
+        ### Affected Systems/Components
+        <!-- List impacted systems, services, or data -->
+
+
+        ### Risk & Impact Assessment
+        <!-- Describe potential impact, severity, and who/what is at risk -->
+
+
+        ### Steps to Reproduce (if applicable)
+        <!-- Provide clear steps to reproduce the issue, if relevant -->
+
+
+        ### Suggested Mitigation or Workaround
+        <!-- Propose any immediate mitigations or recommendations -->
+
+
+        ### Why this is important
+
+        1. 
+
+        ### Diagrams
+
+        1. [File/Diagram Name](Link) - Brief description of the diagram
+
+        ### Designs
+
+        1. [File/Design Name](Link) - Brief description of the design
+
+        ### Association
+
+        Feature #00
+        Story #00
+
+        ### Acceptance Criteria
+
+        - [ ] 
+
+        ### Additional Context
