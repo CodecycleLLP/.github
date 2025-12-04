@@ -2,7 +2,7 @@ name: Epic 🏔️
 description: Large work split into smaller tasks
 title: '|'
 type: 'Epic 🏔️'
-projects: ["StaytunedLLP/43"]
+projects: []
 
 body:
   - type: markdown
@@ -14,23 +14,19 @@ body:
     attributes:
       label: Description
       value: |
-        ### Why this is important
+        ### Objectives
 
         1. 
 
-        ### Details
+        ### Why
 
-        1. [File Name](Link) - Brief description of the file
+        1. 
 
-        ### Diagrams
+        ### Success Criteria
 
-        1. [Diagram Name](Link) - Brief description of the diagram
-
-        ### Designs
-
-        1. [Design Name](Link) - Brief description of the design
-
-        ### Acceptance Criteria
         - [ ] 
 
-        ### Additional context
+        ### Context
+
+        1. For scope check sub-issues.
+        2. [Link to relevant documentation, designs, or other resources]
