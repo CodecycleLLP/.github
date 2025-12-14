@@ -1,15 +1,13 @@
 name: Epic 🏔️
 description: Large work split into smaller tasks
-title: '|'
 type: 'Epic 🏔️'
 projects: ["StaytunedLLP/43"]
 
 body:
   - type: markdown
     attributes:
-      value: |
-        🚀 Speed Leads, Ship Every Day.
-
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
+      
   - type: textarea
     attributes:
       label: Description

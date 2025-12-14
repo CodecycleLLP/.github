@@ -1,31 +1,26 @@
 name: Incident 🚨
 description: Urgent operational disruption
-title: '|'
 type: 'Incident 🚨'
 projects: ["StaytunedLLP/43"]
 
 body:
   - type: markdown
     attributes:
-      value: |
-        🚀 Speed Leads, Ship Every Day.
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
 
   - type: textarea
     attributes:
       label: Description
       value: |
-        As a
-        I want to
-        so that
-
-        ### Why this is important
-
-        1. 
-
         ### Incident Impact
 
         - Who/what was affected?
         - Severity (e.g., minor, major, critical)
+
+        ### Communication Channels
+
+        - War Room Link:
+        - Incident Commander:
 
         ### Timeline
 
@@ -35,35 +30,10 @@ body:
 
         ### Root Cause
 
-        - Brief summary (if known):
+        - 
 
-        ### Mitigation & Resolution Steps
+        ### Acceptance Criteria for Resolution
 
-        - Actions taken:
+        - [ ] Post-mortem documented or follow-up tasks created.
 
-        ### Follow-up Actions
-
-        - Preventive measures or next steps:
-
-        ### Incident Owner
-
-        - Responsible person/team:
-
-        ### Diagrams
-
-        1. [File/Diagram Name](Link) - Brief description of the diagram
-
-        ### Designs
-
-        1. [File/Design Name](Link) - Brief description of the design
-
-        ### Association
-
-        Feature #00
-        Story #00
-
-        ### Acceptance Criteria
-
-        - [ ] 
-
-        ### Additional Context
+        ### Context

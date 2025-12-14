@@ -1,33 +1,25 @@
 name: Data 💾
 description: Information or dataset change
-title: '|'
 type: 'Data 💾'
 projects: []
 
 body:
   - type: markdown
     attributes:
-      value: |
-        🚀 Speed Leads, Ship Every Day.
-
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
+      
   - type: textarea
     attributes:
       label: Description
       value: |
-        As a
-        I want to
-        so that
-
-        ### Why this is important
+        ### Objective
 
         1. 
 
-        ### Data Location
+        ### Notes
 
-        1. [File Name](Link) - Brief description of the diagram
+        1. 
 
-        ### Acceptance Criteria
+        ### Relations
 
-        - [ ] 
-
-        ### Additional Context
+        - Issue or link

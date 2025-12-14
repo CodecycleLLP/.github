@@ -1,62 +1,35 @@
 name: Security 🛡️
 description: Vulnerability or risk mitigation
-title: '|'
 type: 'Security 🛡️'
 projects: ["StaytunedLLP/43"]
 
 body:
   - type: markdown
     attributes:
-      value: |
-        🚀 Speed Leads, Ship Every Day.
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
 
   - type: textarea
     attributes:
       label: Description
       value: |
-        As a
-        I want to
-        so that
+        ### Sensitivity Check
 
-        ### Security Concern Type
-        <!-- e.g., vulnerability, compliance, best practice, incident -->
+        * [ ] I confirm this issue does not contain real PII (Personally Identifiable Information) or live secrets.
 
-
-        ### Affected Systems/Components
-        <!-- List impacted systems, services, or data -->
-
-
-        ### Risk & Impact Assessment
-        <!-- Describe potential impact, severity, and who/what is at risk -->
-
-
-        ### Steps to Reproduce (if applicable)
-        <!-- Provide clear steps to reproduce the issue, if relevant -->
-
-
-        ### Suggested Mitigation or Workaround
-        <!-- Propose any immediate mitigations or recommendations -->
-
-
-        ### Why this is important
+        ### Vulnerability
 
         1. 
 
-        ### Diagrams
+        ## Potential Impact
 
-        1. [File/Diagram Name](Link) - Brief description of the diagram
+        1.
 
-        ### Designs
+        ### Steps to demonstrate
 
-        1. [File/Design Name](Link) - Brief description of the design
+        1. 
 
-        ### Association
-
-        Feature #00
-        Story #00
-
-        ### Acceptance Criteria
+        ### Acceptance Criteria to Fix
 
         - [ ] 
 
-        ### Additional Context
+        ### Context

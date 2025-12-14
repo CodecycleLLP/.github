@@ -1,46 +1,39 @@
 name: Publish 📢
 description: Marketing workflow tracking
-title: '|'
 type: 'Publish 📢'
 projects: ["StaytunedLLP/54"]
 
 body:
   - type: markdown
     attributes:
-      value: |
-        🚀 Speed Leads, Ship Every Day.
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
 
   - type: textarea
     attributes:
       label: Description
       value: |
-        As a
-        I want to
-        so that
-
-        ### Why this is important
-
+        ### Objective
+        
         1. 
 
-        ### Diagrams
+        ### Channel & Timing
 
-        1. [File/Diagram Name](Link) - Brief description of the diagram
+        1. Format:
+        2. Platform:
+        3. Go-Live Date & Time: 
 
-        ### Designs
+        ### Assets
 
-        1. [File/Design Name](Link) - Brief description of the design
-
-        ### Content File
-
-        1. [File/Content Name](Link) - Brief description of the content
-
-        ### Association
-
-        Feature #00
-        Story #00
+        1. Content:
+        2. Creative/Thumbnail:
 
         ### Acceptance Criteria
 
-        - [ ] 
+        - [ ] Content finalized
+        - [ ] Creative/Thumbnail finalized
+        - [ ] Proofread & Approved
+        - [ ] SEO / Alt-text check
+        - [ ] Links tested (No 404s)
+        - [ ] Scheduled for publishing
 
-        ### Additional Context
+        ### Context

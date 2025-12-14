@@ -1,47 +1,58 @@
 name: Event 🗓️
 description: Outcome or objective definition
-title: '|'
 type: 'Event 🗓️'
 projects: ["StaytunedLLP/21"]
 
 body:
   - type: markdown
     attributes:
-      value: |
-        🚀 Speed Leads, Ship Every Day.
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
 
   - type: textarea
     attributes:
       label: Description
       value: |
-        **Event Name:**  
-        **Event Type:**  
-        **Date & Time:**  
-        **Location/Platform:**  
-
-        ### Objective
+        ### Objective 
         What is the primary purpose of this event?  
         - 
 
-        ### Desired Outcomes
-        What are the expected results or deliverables from this event?  
-        - 
+        ### Event Details
 
-        ### Alignment with Company Goals
-        How does this event support our company goals or Core Values?  
-        - 
+        1. Event Name:
+        2. Event Type:
+        3. Date:
+        4. Time:
+        5. Location/Platform:
 
-        ### Success Metrics
-        How will we measure the success of this event?  
-        - [Metric Name](Link) – Brief description
+        ### Agenda & Speakers
 
-        ### Key Participants & Roles
-        List the main participants and their responsibilities.  
-        - 
+        #### 1. Introduction
 
-        ### Agenda or Key Activities
-        Outline the main agenda items or activities.  
-        - 
+        Speaker:
+        Time:
 
-        ### Additional Context
-        Add any relevant background, links, or supporting information.
+        #### 2. Session name
+
+        Speaker:
+        Time:
+
+        #### 3. Q&A Session
+        Speaker:
+        Time:
+
+        ### Attendees & Roles
+
+        - Host:
+        - Target Audience:
+
+        ### Actions
+
+        #### Pre-Event
+
+        - [ ] Send Calendar Invites
+        - [ ] Prepare Slides/Materials
+        
+        #### Post-Event
+        
+        - [ ] Upload Recording
+        - [ ] Share Summary with team

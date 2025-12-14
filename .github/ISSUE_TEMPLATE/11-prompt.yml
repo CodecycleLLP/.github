@@ -1,33 +1,31 @@
 name: Prompt 🤖
 description: Instruction for AI-driven process
-title: '|'
 type: 'Prompt 🤖'
 projects: ["StaytunedLLP/43"]
 
 body:
   - type: markdown
     attributes:
-      value: |
-        🚀 Speed Leads, Ship Every Day.
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
 
   - type: textarea
     attributes:
       label: Description
       value: |
-        As a
-        I want to
-        so that
+        ### Objective
+        
+        1. 
 
-        ### Why this is important
+        ### Usage Scenario
 
         1. 
 
-        ### Prompt File
+        ### Context
 
-        1. [File Name](Link) - Brief description of the content
+        1. 
 
-        ### Acceptance Criteria
+        ### Prompt (v1)
 
-        - [ ] 
-
-        ### Additional Context
+        ```text
+        [Insert prompt text here]
+        ```
