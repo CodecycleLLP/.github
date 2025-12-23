@@ -1,6 +1,6 @@
-name: Prompt 🤖
+name: Instruction 🤖
 description: Instruction for AI-driven process
-type: 'Prompt 🤖'
+type: 'Instruction 🤖'
 projects: ["StaytunedLLP/43"]
 
 body:
@@ -24,8 +24,12 @@ body:
 
         1. 
 
-        ### Prompt (v1)
+        ### Instruction (v1)
+
+        [File OR Folder Path]
+
+        OR as following:
 
         ```text
-        [Insert prompt text here]
+        [Insert instruction text here]
         ```
