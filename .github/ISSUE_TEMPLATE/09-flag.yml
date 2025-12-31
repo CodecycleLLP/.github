@@ -59,9 +59,12 @@ body:
 
         ### Acceptance Criteria
 
+        - [ ] Solve with observations that enable 100× faster future repetitions.
+        - [ ] 
         - [ ] Flag created with correct key and default state
         - [ ] Targeting rules implemented and tested
         - [ ] Metrics and monitoring in place
         - [ ] Rollback procedure documented and validated
+        - [ ] Process updated and remaining speed gaps logged as issues. (#issues)
 
         ### context

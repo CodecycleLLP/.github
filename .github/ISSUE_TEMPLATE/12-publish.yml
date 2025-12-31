@@ -29,11 +29,14 @@ body:
 
         ### Acceptance Criteria
 
+        - [ ] Solve with observations that enable 100× faster future repetitions.
         - [ ] Content finalized
         - [ ] Creative/Thumbnail finalized
         - [ ] Proofread & Approved
         - [ ] SEO / Alt-text check
         - [ ] Links tested (No 404s)
         - [ ] Scheduled for publishing
+        - [ ] 
+        - [ ] Process updated and remaining speed gaps logged as issues. (#issues)
 
         ### Context
