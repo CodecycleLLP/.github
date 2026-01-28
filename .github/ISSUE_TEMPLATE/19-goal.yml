@@ -1,6 +1,6 @@
-name: Milestone 🏁
+name: Goal 🏁
 description: Accountable delivery unit
-type: 'Milestone 🏁'
+type: 'Goal 🏁'
 projects: ['StaytunedLLP/43']
 
 body:
@@ -16,7 +16,7 @@ body:
 
         1. 
 
-        ### Acceptance Criteria
+        ### Acceptance Criteria (outcome based)
         - [ ] Solve with observations that enable 100× faster future repetitions.
         - [ ] Add due date for this milestone.
         - [ ] All deliverables completed.
