@@ -1,19 +1,19 @@
-name: Settings  # Name of the workflow
+name: Settings # Name of the workflow
 
 on:
-  push:  # Trigger the workflow when a push event occurs
+  push: # Trigger the workflow when a push event occurs
     branches:
-      - main  # Only trigger the workflow when the push event occurs on the 'main' branch
+      - main # Only trigger the workflow when the push event occurs on the 'main' branch
 
 jobs:
-  settings:  # Name of the job
-    runs-on: ubuntu-latest  # Run the job on an Ubuntu environment
+  settings: # Name of the job
+    runs-on: st-arc # Run the job on an Ubuntu environment
 
-    steps:  # List of steps to be executed in the job
-      - name: Checkout repository  # Step to checkout the repository
-        uses: actions/checkout@v4  # Use the 'actions/checkout' action to perform the checkout
+    steps: # List of steps to be executed in the job
+      - name: Checkout repository # Step to checkout the repository
+        uses: actions/checkout@v4 # Use the 'actions/checkout' action to perform the checkout
         with:
-          fetch-depth: 0  # Fetch all history for the repository
+          fetch-depth: 0 # Fetch all history for the repository
 
       # - name: Get Repository Details  # Step to get repository details
       #   run: |  # Run the following shell commands
@@ -29,7 +29,7 @@ jobs:
       #     echo "before: ${{ github.event.before }}"  # Print the before commit SHA
       #     echo "after: ${{ github.event.after }}"  # Print the after commit SHA
 
-      - name: Send detail to Deno and update settings  # Step to send details to Deno and update settings
+      - name: Send detail to Deno and update settings # Step to send details to Deno and update settings
         run: |
           changed_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }})
           echo "Changed files: $changed_files"
@@ -48,7 +48,7 @@ jobs:
                   # after_content+="$(git show ${{ github.event.after }}:$file)\n\n"
               fi
           done
-          
+
           if ! $jsonc_file_changed; then
               echo "No file in gh-workflow with .json extension has changed"
               exit 0
