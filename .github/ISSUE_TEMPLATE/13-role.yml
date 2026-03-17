@@ -1,0 +1,57 @@
+name: Role 🪑
+description: Assign key responsibilities
+type: "Role 🪑"
+projects: ["StaytunedLLP/25"]
+
+body:
+  - type: markdown
+    attributes:
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        ### Purpose
+
+        Why does this role exist? What is its aim?
+
+        1. 
+
+        ### Domain
+
+        What is this role responsible for? What resources, processes, or areas does it control?
+
+        1.
+
+        ### Accountabilities
+
+        What specific tasks, decisions, or outcomes is this role accountable for?
+
+        - [ ] 
+
+        ### Qualifications
+
+        What skills, experience, or knowledge are required for this role?
+        
+        1.
+
+        ### Powers
+
+        What authority does this role have to make decisions or take actions?
+
+        1.
+
+        ### Policies
+
+        What rules or guidelines must this role follow?
+
+        1.
+
+        ### Measures
+
+        How will the success of this role be measured?
+        
+        1.
+
+        ### Context

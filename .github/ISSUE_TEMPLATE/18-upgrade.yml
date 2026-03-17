@@ -1,6 +1,6 @@
-name: Task 📀
-description: Single, trackable work activity
-type: "Task 📀"
+name: Upgrade 🧬
+description: Dependency or version update
+type: "Upgrade 🧬"
 projects: ["StaytunedLLP/43"]
 
 body:
@@ -16,10 +16,21 @@ body:
 
         1. 
 
+        ### Current State
+
+        1. 
+
+        ### New State
+
+        1. 
+
+        ### Assets
+
+        1. Design:
+        2. Tech Spec:
+
         ### Acceptance Criteria
 
-        - [ ] Solve with observations that enable 100× faster future repetitions.
         - [ ] 
-        - [ ] Process updated and remaining speed gaps logged as issues. (#issues) 
 
         ### Context

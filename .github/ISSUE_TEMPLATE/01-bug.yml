@@ -22,7 +22,7 @@ body:
         1. 
 
         ### Expected
-        
+
         1.
 
         ### Actual
@@ -31,12 +31,10 @@ body:
 
         ### Acceptance Criteria
 
-        - [ ] Solve with observations that enable 100× faster future repetitions.
         - [ ] 
-        - [ ] Process updated and remaining speed gaps logged as issues. (#issues)
 
         ### Context
-        
+
         * Screenshots or Screen recording (Loom/GIF).
         * Error logs or Stack trace.
         * Environment (e.g., Chrome on Mac).

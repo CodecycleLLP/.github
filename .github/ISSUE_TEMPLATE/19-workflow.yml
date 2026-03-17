@@ -1,6 +1,6 @@
 name: Workflow 🔄
 description: Process or sequence of tasks
-type: 'Workflow 🔄'
+type: "Workflow 🔄"
 projects: ["StaytunedLLP/43"]
 
 body:
@@ -41,8 +41,6 @@ body:
 
         ### Acceptance Criteria
 
-        - [ ] Solve with observations that enable 100× faster future repetitions.
         - [ ] 
-        - [ ] Process updated and remaining speed gaps logged as issues. (#issues)
 
         ### Context
