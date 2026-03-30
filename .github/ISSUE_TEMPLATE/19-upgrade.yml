@@ -1,0 +1,229 @@
+name: Upgrade 🧬
+description: Dependency or version update
+type: "Upgrade 🧬"
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+
+          ## OBJECTIVE
+          <!--
+          Define the upgrade clearly.
+
+          Rules:
+          - One sentence
+          - Start with: Update / Modify / Enhance / Extend
+          - Mention what is changing
+
+          GOOD:
+          Add refresh token support to existing authentication system
+
+          BAD:
+          Improve authentication
+          -->
+          Update <describe change clearly>
+
+          ## EXISTING BEHAVIOR
+          <!--
+          Describe how the system works today.
+
+          Rules:
+          - Be factual
+          - Focus on relevant behavior only
+
+          Example:
+          - Login API returns access token only
+          -->
+          - Describe current behavior
+
+          ## REQUIRED CHANGE (DELTA)
+          <!--
+          Define EXACTLY what needs to change.
+
+          Rules:
+          - Be explicit
+          - Focus only on differences
+          - Avoid rewriting full system
+
+          Example:
+          - Add refresh token in response
+          - Add refresh token endpoint
+          -->
+          - Change 1
+          - Change 2
+
+          ## SCOPE
+
+          ### In Scope
+          <!--
+          List exact changes to implement
+          -->
+          - Example: Add new endpoint
+          - Example: Modify response structure
+
+          ### Out of Scope
+          <!--
+          Prevent unintended changes
+
+          Examples:
+          - No UI changes
+          - No database schema changes (unless required)
+          -->
+          - Example: No UI changes
+
+          ## REQUIREMENTS
+          <!--
+          Define rules for updated behavior
+
+          Rules:
+          - Must be implementable
+          - Must reflect new behavior
+          -->
+
+          - Example: Access token expires in 1 hour
+          - Example: Refresh token expires in 7 days
+
+          ## INPUT / OUTPUT CONTRACT
+          <!--
+          Define updated data structures
+
+          IMPORTANT:
+          - Highlight changes clearly
+          -->
+
+          ### Input (if changed)
+          - field: type — description
+
+          ### Output (Updated)
+          - field: type — description
+          - new_field: type — description
+
+          ## DECISION RULES
+          <!--
+          Define new or changed logic
+
+          Example:
+          - IF refresh token valid → issue new access token
+          - ELSE → return 401
+          -->
+
+          - IF condition → outcome
+          - ELSE → outcome
+
+          ## SCENARIOS
+          <!--
+          Define behavior with updated flows
+
+          Rules:
+          - Include existing flow (if impacted)
+          - Include new/changed flow
+          -->
+
+          1. Existing flow (unchanged or updated)
+          - Step 1:
+          - Step 2:
+          - Expected result:
+
+          2. New or modified flow
+          - Step 1:
+          - Step 2:
+          - Expected result:
+
+          3. Failure flow
+          - Step 1:
+          - Step 2:
+          - Expected result:
+
+          ## EDGE CASES
+          <!--
+          Focus on upgrade-related edge cases
+          -->
+
+          ### State
+          - Example: Old data without new field
+
+          ### Compatibility
+          - Example: Old clients using previous API
+
+          ### System / API
+          - Example: Token mismatch or expiry issues
+
+          ## ACCEPTANCE CRITERIA
+          <!--
+          Define DONE conditions
+
+          Rules:
+          - Must validate new behavior
+          - Must ensure old behavior is not broken
+          -->
+
+          - [ ] New behavior works as expected
+          - [ ] Existing behavior remains unaffected
+          - [ ] No regression in related flows
+
+          ## FILES / AREAS
+          <!--
+          Where changes are required
+          -->
+          - Example: /src/auth/*
+          - Example: /src/routes/auth.js
+
+          ## DEPENDENCIES
+          <!--
+          Existing systems/modules affected
+          -->
+          - Example: Auth service
+          - Example: Token service
+
+          ## SIDE EFFECTS
+          <!--
+          Define impact of change
+
+          Examples:
+          - Existing tokens may become invalid
+          - Increased DB load
+          -->
+
+          - Side effect
+
+          ## ASSUMPTIONS (Optional)
+          <!--
+          Clarify assumptions
+          -->
+          - Example: Existing auth system is stable
+
+          ## NON-GOALS
+          <!--
+          Prevent unnecessary changes
+
+          Examples:
+          - Do not refactor entire auth system
+          - Do not change unrelated modules
+          -->
+          - Non-goal
+
+          ## TASK-SPECIFIC CONSTRAINTS
+          <!--
+          Only if unique constraints exist
+          -->
+          - Constraint
+
+          ## CONTEXT
+          <!--
+          Supporting material
+
+          Examples:
+          - Design links
+          - Tech specs
+          - Screenshots
+          -->
+          - Design:
+          - Tech spec:
+          - Additional context:

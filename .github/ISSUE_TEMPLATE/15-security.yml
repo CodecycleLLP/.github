@@ -1,0 +1,223 @@
+name: Security 🛡️
+description: Vulnerability or risk mitigation
+type: "Security 🛡️"
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+
+          ## OBJECTIVE
+          <!--
+          Define the goal clearly.
+
+          Rules:
+          - One sentence
+          - Start with: Fix / Mitigate / Prevent
+          - Mention vulnerability type
+
+          GOOD:
+          Fix SQL injection vulnerability in login API
+
+          BAD:
+          Improve security
+          -->
+          Fix <describe vulnerability clearly>
+
+          ## SENSITIVITY CHECK
+          <!--
+          Ensure no sensitive data is exposed.
+
+          Rules:
+          - NEVER include real secrets, tokens, or PII
+          - Use masked or dummy values
+          -->
+          - [ ] No real secrets or PII included
+
+          ## VULNERABILITY
+          <!--
+          Describe the security issue.
+
+          Rules:
+          - Be precise
+          - Mention affected component
+          - Avoid unnecessary detail that exposes exploit
+
+          Example:
+          - User input is directly concatenated into SQL query
+          -->
+          - Describe vulnerability
+
+          ## IMPACT
+          <!--
+          Explain risk and potential damage.
+
+          Rules:
+          - Be explicit
+          - Mention scope of impact
+
+          Examples:
+          - Unauthorized data access
+          - Account takeover
+          - Data leakage
+          -->
+
+          - Affected systems:
+          - Risk level: (Critical / High / Medium / Low)
+          - Impact description:
+
+          ## ATTACK VECTOR / REPRODUCTION
+          <!--
+          Explain how vulnerability can be triggered.
+
+          Rules:
+          - Use safe examples (no real exploits)
+          - Keep steps clear but not harmful
+
+          Example:
+          1. Send crafted input in login form
+          2. Observe bypass of authentication
+          -->
+
+          1. Step 1:
+          2. Step 2:
+          3. Step 3:
+
+          ## CURRENT BEHAVIOR
+          <!--
+          What system is doing now (insecure behavior)
+          -->
+          - Describe insecure behavior
+
+          ## EXPECTED BEHAVIOR
+          <!--
+          What secure behavior should be
+          -->
+          - Describe expected secure behavior
+
+          ## REQUIREMENTS (SECURITY FIX)
+          <!--
+          Define what must be implemented to fix issue.
+
+          Rules:
+          - Must be actionable
+          - Avoid vague terms like "secure it"
+          -->
+
+          - Example: Use parameterized queries
+          - Example: Validate and sanitize input
+
+          ## INPUT / OUTPUT CONTRACT (Optional)
+          <!--
+          Include if vulnerability is data/API related
+          -->
+
+          ### Input
+          - field: type — description
+
+          ### Output
+          - field: type — description
+
+          ## DECISION RULES (Optional)
+          <!--
+          Define conditional security logic
+
+          Example:
+          - IF input is invalid → reject request
+          - ELSE → process normally
+          -->
+
+          - IF condition → outcome
+          - ELSE → outcome
+
+          ## EDGE CASES
+          <!--
+          Security-specific edge cases
+          -->
+
+          ### Validation
+          - Missing or malformed input
+
+          ### Authorization
+          - Unauthorized access attempt
+
+          ### System
+          - Unexpected input patterns
+
+          ## ACCEPTANCE CRITERIA
+          <!--
+          Define DONE conditions.
+
+          Rules:
+          - Must confirm vulnerability is fixed
+          - Must include regression safety
+          -->
+
+          - [ ] Vulnerability is no longer exploitable
+          - [ ] Input is validated and sanitized
+          - [ ] No regression in normal functionality
+
+          ## FILES / AREAS
+          <!--
+          Where fix is required
+          -->
+          - Example: /src/auth/login.js
+
+          ## DEPENDENCIES
+          <!--
+          Related systems/modules
+          -->
+          - Example: Database layer
+          - Example: Auth middleware
+
+          ## SIDE EFFECTS / RISKS
+          <!--
+          Risks introduced by fix
+
+          Example:
+          - Stricter validation may reject valid edge inputs
+          -->
+
+          - Risk or side effect
+
+          ## ASSUMPTIONS (Optional)
+          <!--
+          Clarify assumptions
+          -->
+          - Assumption
+
+          ## NON-GOALS
+          <!--
+          Prevent unnecessary changes
+
+          Examples:
+          - Do not refactor unrelated modules
+          -->
+
+          - Non-goal
+
+          ## TASK-SPECIFIC CONSTRAINTS
+          <!--
+          Only if unique constraints exist
+          -->
+          - Constraint
+
+          ## CONTEXT
+          <!--
+          Attach safe debugging info
+
+          Include:
+          - Sanitized logs
+          - Screenshots (no sensitive data)
+          - Environment details
+          -->
+
+          - Logs (sanitized):
+          - Screenshots:
+          - Environment:

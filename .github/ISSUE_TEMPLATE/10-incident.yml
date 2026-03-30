@@ -12,29 +12,246 @@ body:
     attributes:
       label: Description
       value: |
-        ### Incident Impact
 
-        - Who/what was affected?
-        - Severity (e.g., minor, major, critical)
+        ## OBJECTIVE
+        <!--
+        Define the immediate goal.
 
-        ### Communication Channels
+        Rules:
+        - One sentence
+        - Focus on restoration, mitigation, or containment
+        - Start with: Resolve / Mitigate / Restore
 
-        - War Room Link:
-        - Incident Commander:
+        GOOD:
+        Resolve API outage causing 500 errors on login endpoint
 
-        ### Timeline
+        BAD:
+        Investigate issue
+        -->
+        Resolve <describe incident briefly>
+
+        ---
+
+        ## INCIDENT SUMMARY
+        <!--
+        What is happening right now.
+
+        Rules:
+        - Clear and concise
+        - Describe visible problem
+        - No speculation
+        -->
+        - Describe incident
+
+        ---
+
+        ## IMPACT
+        <!--
+        Define who/what is affected.
+
+        Rules:
+        - Be explicit
+        - Include severity
+
+        Examples:
+        - All users unable to login
+        - Payments failing for 30% users
+        -->
+
+        - Affected systems:
+        - Affected users:
+        - Severity: (Critical / Major / Minor)
+
+        ---
+
+        ## CURRENT BEHAVIOR
+        <!--
+        What the system is doing now (incorrect behavior)
+
+        Examples:
+        - API returning 500 errors
+        - UI not loading data
+        -->
+        - Describe current behavior
+
+        ---
+
+        ## EXPECTED BEHAVIOR
+        <!--
+        What should be happening
+
+        Examples:
+        - API should return 200 with valid response
+        -->
+        - Describe expected behavior
+
+        ---
+
+        ## DETECTION & TIMELINE
+        <!--
+        Track key timestamps
+
+        Rules:
+        - Keep factual
+        - Update as incident progresses
+        -->
 
         - Start time:
         - Detection time:
-        - Resolution time (if applicable):
+        - Last updated:
+        - Resolution time (if resolved):
 
-        ### Root Cause
+        ---
 
-        - 
+        ## REPRODUCTION / SIGNALS (Optional)
+        <!--
+        If reproducible, define steps.
+        If not, define signals/logs.
 
-        ### Acceptance Criteria for Resolution
+        Examples:
+        - Specific request causing failure
+        - Error pattern in logs
+        -->
 
-        - [ ] Post-mortem documented or follow-up tasks created.
+        - Step or signal
 
+        ---
 
-        ### Context
+        ## IMMEDIATE ACTIONS REQUIRED
+        <!--
+        Define what needs to be done NOW.
+
+        Rules:
+        - Actionable steps only
+        - No long-term fixes here
+        -->
+
+        - Action 1
+        - Action 2
+
+        ---
+
+        ## DECISION RULES (Optional)
+        <!--
+        Define critical decision logic during incident
+
+        Examples:
+        - IF error rate > 50% → rollback deployment
+        - IF DB unavailable → switch to fallback
+        -->
+
+        - IF condition → action
+        - ELSE → action
+
+        ---
+
+        ## DEPENDENCIES
+        <!--
+        Systems/services involved
+
+        Examples:
+        - Payment gateway
+        - Database
+        - Auth service
+        -->
+
+        - Dependency
+
+        ---
+
+        ## SIDE EFFECTS / RISKS
+        <!--
+        Risks of fixes or actions
+
+        Examples:
+        - Rolling back may affect new features
+        - Restarting service may cause temporary downtime
+        -->
+
+        - Risk or side effect
+
+        ---
+
+        ## ACCEPTANCE CRITERIA (RESOLUTION)
+        <!--
+        Define when incident is considered resolved
+
+        Rules:
+        - Must be measurable
+        - Must confirm system stability
+
+        GOOD:
+        - [ ] Error rate returns to 0%
+        - [ ] System stable for 15 minutes
+        -->
+
+        - [ ] Issue is resolved
+        - [ ] System is stable
+        - [ ] No regression observed
+
+        ---
+
+        ## ROOT CAUSE (POST-RESOLUTION)
+        <!--
+        Fill ONLY after incident is resolved
+
+        Rules:
+        - Do not guess during incident
+        - Keep factual
+        -->
+        - Root cause
+
+        ---
+
+        ## FOLLOW-UP ACTIONS
+        <!--
+        Post-incident improvements
+
+        Examples:
+        - Add monitoring
+        - Fix underlying bug
+        - Improve alerting
+        -->
+
+        - [ ] Action item
+
+        ---
+
+        ## ASSUMPTIONS (Optional)
+        <!--
+        Clarify assumptions if needed
+        -->
+        - Assumption
+
+        ---
+
+        ## NON-GOALS
+        <!--
+        Prevent unnecessary work during incident
+
+        Examples:
+        - Do not refactor code
+        - Do not optimize performance
+        -->
+
+        - Non-goal
+
+        ---
+
+        ## CONTEXT
+        <!--
+        Attach debugging evidence
+
+        Include:
+        - Logs
+        - Screenshots
+        - Monitoring graphs
+        - War room link
+        - Incident commander
+        -->
+
+        - Logs:
+        - Screenshots:
+        - Monitoring:
+        - War room link:
+        - Incident commander:

@@ -12,5 +12,127 @@ body:
     attributes:
       label: Description
       value: |
-       
-       # Feature Details
+
+        ## OBJECTIVE
+        <!--
+        Define EXACTLY what needs to be built or fixed.
+        - One sentence
+        - Start with action verb
+        - Be specific
+        -->
+        Write clear objective
+
+        ## SCOPE
+
+        ### In Scope
+        <!--
+        List exact responsibilities
+        -->
+        - Example: Implement login API
+
+        ### Out of Scope
+        <!--
+        Define exclusions to prevent over-engineering
+        -->
+        - Example: No UI changes
+
+        ## REQUIREMENTS
+        <!--
+        Define functional rules
+        -->
+        - Example: Token expiry is 1 hour
+
+        ## INPUT / OUTPUT CONTRACT
+
+        ### Input
+        <!-- Define input structure -->
+        - field: type — description
+
+        ### Output
+        <!-- Define output structure -->
+        - field: type — description
+
+        ## DECISION RULES
+        <!--
+        Define conditional logic using IF / ELSE
+        -->
+        - IF condition → outcome
+        - ELSE → outcome
+
+        ## SCENARIOS
+        <!--
+        Define behavior using ordered steps
+        -->
+
+        1. Success flow
+        - Step 1:
+        - Step 2:
+        - Expected result:
+
+        2. Failure flow
+        - Step 1:
+        - Step 2:
+        - Expected result:
+
+        ## EDGE CASES
+        <!--
+        List edge cases
+        -->
+
+        ### Validation
+        - Example: Missing required field
+
+        ### State
+        - Example: Resource not found (404)
+
+        ### System / API
+        - Example: External API failure
+
+        ## ACCEPTANCE CRITERIA
+        <!--
+        Define testable outcomes
+        -->
+        - [ ] Example: Valid login returns token
+
+        ## FILES / AREAS
+        <!--
+        Where to implement
+        -->
+        - Example: /src/auth/*
+
+        ## DEPENDENCIES
+        <!--
+        Existing systems to use
+        -->
+        - Example: Existing user model
+
+        ## SIDE EFFECTS
+        <!--
+        Additional actions triggered
+        -->
+        - Example: Save user to database
+
+        ## ASSUMPTIONS
+        <!--
+        Things assumed to exist
+        -->
+        - Example: DB connection is configured
+
+        ## NON-GOALS
+        <!--
+        What must NOT be changed
+        -->
+        - Example: Do not modify schema
+
+        ## TASK-SPECIFIC CONSTRAINTS
+        <!--
+        Only unique constraints
+        -->
+        - Example: Use Redis for caching
+
+        ## CONTEXT (Optional)
+        <!--
+        Add only if needed
+        -->
+        - Current state:
+        - Problem:

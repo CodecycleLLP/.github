@@ -13,28 +13,221 @@ body:
       label: Description
       value: |
 
-        ### Bug Details
+        ## OBJECTIVE
+        <!--
+        Define the bug fix clearly.
 
-        1. 
+        Rules:
+        - One sentence
+        - Start with "Fix"
+        - Mention broken behavior
 
-        ### Steps to Reproduce
+        GOOD:
+        Fix login API returning 500 error on invalid credentials
 
-        1. 
+        BAD:
+        Fix login issue
+        -->
+        Fix <describe the bug clearly>
 
-        ### Expected
+        ---
 
-        1.
+        ## CURRENT BEHAVIOR
+        <!--
+        Describe what is happening right now.
 
-        ### Actual
+        Rules:
+        - Be specific
+        - Include incorrect output / behavior
+        - Avoid vague wording
 
-        1. 
+        Example:
+        - Login API returns 500 instead of 401 for invalid password
+        -->
+        - Describe actual behavior
 
-        ### Acceptance Criteria
+        ---
 
-        - [ ] 
+        ## EXPECTED BEHAVIOR
+        <!--
+        Describe correct behavior.
 
-        ### Context
+        Rules:
+        - Must be precise and testable
+        - Should directly contrast current behavior
 
-        * Screenshots or Screen recording (Loom/GIF).
-        * Error logs or Stack trace.
-        * Environment (e.g., Chrome on Mac).
+        Example:
+        - Login API should return 401 with "Invalid credentials"
+        -->
+        - Describe expected behavior
+
+        ---
+
+        ## REPRODUCTION STEPS
+        <!--
+        Define exact steps to reproduce the issue.
+
+        Rules:
+        - Must be deterministic
+        - Use ordered steps (Step 1, Step 2)
+        - Avoid skipping steps
+
+        Example:
+        1. Open login page
+        2. Enter invalid credentials
+        3. Click login
+        4. Observe error
+        -->
+
+        1. Step 1:
+        2. Step 2:
+        3. Step 3:
+
+        ---
+
+        ## INPUT / OUTPUT CONTRACT (Optional)
+        <!--
+        Include ONLY if bug relates to data/API.
+
+        Helps agent fix response structure issues.
+        -->
+
+        ### Input
+        - field: type — description
+
+        ### Output (Current - Incorrect)
+        - field: type — description
+
+        ### Output (Expected - Correct)
+        - field: type — description
+
+        ---
+
+        ## SCENARIOS (Optional but Recommended)
+        <!--
+        Define key flows to validate fix.
+
+        Use when bug affects multiple paths.
+        -->
+
+        1. Valid flow
+        - Step 1:
+        - Step 2:
+        - Expected result:
+
+        2. Invalid flow
+        - Step 1:
+        - Step 2:
+        - Expected result:
+
+        ---
+
+        ## EDGE CASES
+        <!--
+        List edge cases related to bug.
+
+        Focus on:
+        - boundaries
+        - failure conditions
+        -->
+
+        ### Validation
+        - Example: Missing required input
+
+        ### State
+        - Example: Resource not found (404)
+
+        ### System / API
+        - Example: API timeout
+
+        ---
+
+        ## ACCEPTANCE CRITERIA
+        <!--
+        Define DONE conditions (must be testable).
+
+        Rules:
+        - Must validate bug is fixed
+        - Include regression checks
+
+        GOOD:
+        - [ ] Invalid login returns 401
+        - [ ] Valid login still works
+        -->
+        - [ ] Bug is fixed for main case
+        - [ ] No regression in related flows
+        - [ ] Error handling is correct
+
+        ---
+
+        ## FILES / AREAS
+        <!--
+        Where the fix is likely required.
+
+        Helps agent locate problem faster
+        -->
+        - Example: /src/auth/login.js
+
+        ---
+
+        ## DEPENDENCIES
+        <!--
+        List related modules/services.
+
+        Helps agent understand integration points
+        -->
+        - Example: Auth service
+        - Example: User model
+
+        ---
+
+        ## SIDE EFFECTS
+        <!--
+        Ensure fix does not break other behavior
+
+        Example:
+        - Must not affect signup flow
+        -->
+        - Side effect consideration
+
+        ---
+
+        ## ASSUMPTIONS (Optional)
+        <!--
+        Clarify assumptions if needed
+        -->
+        - Example: User service is working correctly
+
+        ---
+
+        ## NON-GOALS
+        <!--
+        Prevent unnecessary changes
+
+        Example:
+        - Do not refactor unrelated modules
+        -->
+        - Example: No UI changes
+
+        ---
+
+        ## TASK-SPECIFIC CONSTRAINTS
+        <!--
+        Only include if unique constraints exist
+        -->
+        - Constraint if any
+
+        ---
+
+        ## CONTEXT
+        <!--
+        Attach debugging evidence
+
+        Include:
+        - Screenshots / screen recordings
+        - Error logs / stack traces
+        - Environment details (browser, OS, etc.)
+        -->
+        - Logs:
+        - Screenshots:
+        - Environment:
