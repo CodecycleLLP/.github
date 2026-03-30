@@ -1,7 +1,7 @@
-name: Publish 📢
-description: Marketing workflow tracking
-type: "Publish 📢"
-projects: ["StaytunedLLP/54"]
+name: Product 📦
+description: Product lifecycle management
+type: "Product 📦"
+projects: ["StaytunedLLP/81"]
 
 body:
   - type: markdown
@@ -12,28 +12,40 @@ body:
     attributes:
       label: Description
       value: |
-        ### Objective
+        ### Purpose
+        Capture stage, owner, and expected outcome for product lifecycle:
+        - digital product (app, web, API)
+        - physical product (hardware, kit, consumable)
 
-        1. 
+        ### Outcome / Target
+        1. Customer/job to be solved
+        2. Success metric (KR, NPS, adoption, revenue, cycle time)
 
-        ### Channel & Timing
+        ### Stage & Timeline
+        1. Stage: Discovery / Design / Build / Validate / Launch / Operate
+        2. Key milestone(s):
+           - concept validation
+           - prototype done
+           - MVP release
+           - production launch
+        3. Go-live / ship date:
 
-        1. Format:
-        2. Platform:
-        3. Go-Live Date & Time: 
-
-        ### Assets
-
-        1. Content:
-        2. Creative/Thumbnail:
+        ### Deliverables
+        1. Requirements / user story
+        2. Prototype / CAD / mockups
+        3. Test plan (digital QA / physical manufacturing checks)
+        4. Launch checklist
 
         ### Acceptance Criteria
+        - [ ] Problem hypothesis validated (user research)
+        - [ ] Requirements signed off
+        - [ ] Build/prototype completed
+        - [ ] QA/test pass
+        - [ ] Launch readiness approved
+        - [ ] Post-launch support/ops plan in place
 
-        - [ ] Content finalized
-        - [ ] Creative/Thumbnail finalized
-        - [ ] Proofread & Approved
-        - [ ] SEO / Alt-text check
-        - [ ] Links tested (No 404s)
-        - [ ] Scheduled for publishing
-
-        ### Context
+        ### Handoff & Operations
+        1. Release notes
+        2. Training / docs
+        3. Support escalation
+        4. Continuous improvement backlog
