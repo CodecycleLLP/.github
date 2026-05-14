@@ -1,0 +1,33 @@
+name: Feedback 💬
+description: Constructive growth signal
+title: "|"
+type: "Feedback 💬"
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚀 Speed Leads, Ship Every Day.  
+
+  - type: textarea
+    attributes:
+      label: Issue Description
+      value: |
+        As a end user
+        I want to report
+        so that
+
+        ### Why this is important
+        
+        1. 
+
+        ### Files
+
+        1. [File/Diagram Name](Link) - Brief description of the diagram
+
+        ### Acceptance Criteria
+        
+        - [ ] 
+
+        ### Additional Context
