@@ -12,222 +12,90 @@ body:
     attributes:
       label: Description
       value: |
+        ## Summary
 
-        ## OBJECTIVE
-        <!--
-        Define the bug fix clearly.
-
-        Rules:
-        - One sentence
-        - Start with "Fix"
-        - Mention broken behavior
-
-        GOOD:
-        Fix login API returning 500 error on invalid credentials
-
-        BAD:
-        Fix login issue
-        -->
-        Fix <describe the bug clearly>
+        Provide a short description of the bug.
 
         ---
 
-        ## CURRENT BEHAVIOR
-        <!--
-        Describe what is happening right now.
+        # Problem Details
 
-        Rules:
-        - Be specific
-        - Include incorrect output / behavior
-        - Avoid vague wording
+        ## Current Behavior
 
-        Example:
-        - Login API returns 500 instead of 401 for invalid password
-        -->
-        - Describe actual behavior
+        Describe what is happening.
+
+        - What is broken?
+        - What is unexpected?
+        - What error or incorrect behavior occurs?
 
         ---
 
-        ## EXPECTED BEHAVIOR
-        <!--
-        Describe correct behavior.
+        ## Expected Behavior
 
-        Rules:
-        - Must be precise and testable
-        - Should directly contrast current behavior
-
-        Example:
-        - Login API should return 401 with "Invalid credentials"
-        -->
-        - Describe expected behavior
+        Describe what should happen instead.
 
         ---
 
-        ## REPRODUCTION STEPS
-        <!--
-        Define exact steps to reproduce the issue.
+        # Steps to Reproduce
 
-        Rules:
-        - Must be deterministic
-        - Use ordered steps (Step 1, Step 2)
-        - Avoid skipping steps
+        Provide clear reproduction steps.
 
-        Example:
-        1. Open login page
-        2. Enter invalid credentials
-        3. Click login
-        4. Observe error
-        -->
-
-        1. Step 1:
-        2. Step 2:
-        3. Step 3:
+        1. 
+        2. 
+        3. 
+        4. 
 
         ---
 
-        ## INPUT / OUTPUT CONTRACT (Optional)
-        <!--
-        Include ONLY if bug relates to data/API.
+        # Environment
 
-        Helps agent fix response structure issues.
-        -->
+        Provide relevant environment details.
 
-        ### Input
-        - field: type — description
+        ## Application / Service
 
-        ### Output (Current - Incorrect)
-        - field: type — description
+        - Name:
+        - Version:
 
-        ### Output (Expected - Correct)
-        - field: type — description
+        ## Environment Type
 
-        ---
+        - [ ] Local
+        - [ ] Development
+        - [ ] Staging
+        - [ ] Production
 
-        ## SCENARIOS (Optional but Recommended)
-        <!--
-        Define key flows to validate fix.
+        ## Platform Details
 
-        Use when bug affects multiple paths.
-        -->
-
-        1. Valid flow
-        - Step 1:
-        - Step 2:
-        - Expected result:
-
-        2. Invalid flow
-        - Step 1:
-        - Step 2:
-        - Expected result:
+        - OS:
+        - Browser:
+        - Device:
+        - Runtime / SDK Version:
 
         ---
 
-        ## EDGE CASES
-        <!--
-        List edge cases related to bug.
+        # Scope & Impact
 
-        Focus on:
-        - boundaries
-        - failure conditions
-        -->
+        ## Affected Areas
 
-        ### Validation
-        - Example: Missing required input
+        - 
+        - 
+        - 
 
-        ### State
-        - Example: Resource not found (404)
+        ## Impact
 
-        ### System / API
-        - Example: API timeout
+        Describe severity and impact.
 
-        ---
-
-        ## ACCEPTANCE CRITERIA
-        <!--
-        Define DONE conditions (must be testable).
-
-        Rules:
-        - Must validate bug is fixed
-        - Include regression checks
-
-        GOOD:
-        - [ ] Invalid login returns 401
-        - [ ] Valid login still works
-        -->
-        - [ ] Bug is fixed for main case
-        - [ ] No regression in related flows
-        - [ ] Error handling is correct
+        Examples:
+        - broken functionality
+        - degraded performance
+        - data inconsistency
+        - security concern
+        - usability issue
 
         ---
 
-        ## FILES / AREAS
-        <!--
-        Where the fix is likely required.
+        # Logs / Errors
 
-        Helps agent locate problem faster
-        -->
-        - Example: /src/auth/login.js
+        Include relevant logs, stack traces, screenshots, or error messages.
 
-        ---
-
-        ## DEPENDENCIES
-        <!--
-        List related modules/services.
-
-        Helps agent understand integration points
-        -->
-        - Example: Auth service
-        - Example: User model
-
-        ---
-
-        ## SIDE EFFECTS
-        <!--
-        Ensure fix does not break other behavior
-
-        Example:
-        - Must not affect signup flow
-        -->
-        - Side effect consideration
-
-        ---
-
-        ## ASSUMPTIONS (Optional)
-        <!--
-        Clarify assumptions if needed
-        -->
-        - Example: User service is working correctly
-
-        ---
-
-        ## NON-GOALS
-        <!--
-        Prevent unnecessary changes
-
-        Example:
-        - Do not refactor unrelated modules
-        -->
-        - Example: No UI changes
-
-        ---
-
-        ## TASK-SPECIFIC CONSTRAINTS
-        <!--
-        Only include if unique constraints exist
-        -->
-        - Constraint if any
-
-        ---
-
-        ## CONTEXT
-        <!--
-        Attach debugging evidence
-
-        Include:
-        - Screenshots / screen recordings
-        - Error logs / stack traces
-        - Environment details (browser, OS, etc.)
-        -->
-        - Logs:
-        - Screenshots:
-        - Environment:
+        ```text
+        Paste logs or errors here

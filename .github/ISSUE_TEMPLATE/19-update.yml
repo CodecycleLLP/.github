@@ -1,7 +1,7 @@
 name: Update 🆕
 description: This is new
-type: 'Update 🔄'
-projects: ['StaytunedLLP/43']
+type: "Update 🆕"
+projects: ["StaytunedLLP/43"]
 
 body:
   - type: markdown
@@ -13,7 +13,7 @@ body:
       label: Description
       value: |
         ### Source of Update
-        
+
         1. 
 
         ### Update URL
@@ -25,4 +25,4 @@ body:
         - [ ] Assign issue if implementation is needed.
         - [ ] Team notified if necessary
 
-        ### Context  
+        ### Context
