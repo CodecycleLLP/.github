@@ -13,34 +13,33 @@ body:
       label: Description
       value: |
         ### Objective
+        <!-- State the workflow outcome in one line. -->
 
-        1. 
+        
 
         ### Trigger
-
-        1. Type: [e.g. Scheduled (Cron) / Webhook / Manual Trigger]
-        2. Event: [e.g. "Every Monday at 09:00 UTC" OR "On PR Merge to Main"]
+        <!-- Identify how the workflow starts. -->
+        
+        - Type:
+        - Event:
 
         ### Steps
-
-        1. Fetch:
-        2. Process:
-        3. Store:
+        <!-- List the steps in execution order. -->
+        
+        1.
+        2.
+        3.
 
         ### Outcome
+        <!-- Say what the workflow should produce. -->
 
-        1. [e.g. Artifact generated, Notification sent]
+        
 
         ### Failure Handling
+        <!-- Describe retry, alert, or fallback behavior. -->
+        
 
-        1. If it fails: [e.g. Retry, Alert Team]
-        2. Alerts: Notify team
-
-        Feature #00
-        Story #00
-
-        ### Acceptance Criteria
-
-        - [ ] 
-
-        ### Context
+        ### Acceptance
+        <!-- Use one short check for completion. -->
+        
+        - [ ]

@@ -7,155 +7,26 @@ body:
   - type: markdown
     attributes:
       value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
-      
+
   - type: textarea
     attributes:
       label: Description
       value: |
-        ## Problem Statement
+        ### Problem
+        <!-- State the user need or gap this feature solves. -->
 
-        Describe the problem this feature solves.
+        ### Goal
+        <!-- Describe the outcome users should get. -->
 
-        - What is currently missing?
-        - Why is this needed?
-        - Who is affected?
 
-        ---
+        ### Scope
+        <!-- Keep include and exclude boundaries explicit. -->
 
-        ## Goal
+        - Include:
+        - Exclude:
 
-        Describe the desired outcome of this feature.
+        ### Acceptance
+        <!-- Use clear checks that prove the feature works. -->
 
-        What should users or developers be able to do after this is completed?
-
-        ---
-
-        # Scope
-
-        ## Included
-
-        List what is included in this feature.
-
-        - 
-        - 
-        - 
-
-        ## Excluded
-
-        List what is intentionally out of scope.
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Requirements
-
-        Describe the functional requirements.
-
-        ## Functional Requirements
-
-        - 
-        - 
-        - 
-
-        ## Non-Functional Requirements
-
-        Examples:
-        - performance
-        - accessibility
-        - security
-        - scalability
-        - backward compatibility
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # User Experience
-
-        Describe expected behavior from the user perspective.
-
-        ## User Flow
-
-        1. 
-        2. 
-        3. 
-
-        ## Expected Behavior
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Technical Notes
-
-        Optional implementation notes, constraints, or references.
-
-        ## Related Modules / Areas
-
-        - 
-        - 
-
-        ## Dependencies
-
-        - 
-        - 
-
-        ## Risks / Considerations
-
-        - 
-        - 
-
-        ---
-
-        # Edge Cases
-
-        List important edge cases or failure scenarios.
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Acceptance Criteria
-
-        Define conditions required for completion.
-
-        - [ ]
-        - [ ]
-        - [ ]
-        - [ ]
-
-        ---
-
-        # Testing Notes
-
-        Describe expected testing coverage.
-
-        ## Manual Testing
-
-        - 
-        - 
-
-        ## Automated Testing
-
-        - 
-        - 
-
-        ---
-
-        # References
-
-        Optional links or related resources.
-
-        - Docs:
-        - Designs:
-        - Related Issues:
-        - PRs:
+        - [ ] Clear outcome
+        - [ ] Works as expected

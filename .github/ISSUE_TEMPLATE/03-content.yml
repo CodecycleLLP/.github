@@ -1,5 +1,5 @@
 name: Content 📝
-description: Documentation or copy update
+description: Manage content lifecycle
 type: "Content 📝"
 projects: ["StaytunedLLP/43"]
 
@@ -13,28 +13,32 @@ body:
       label: Description
       value: |
         ### Objective
+        <!-- Use this issue to manage the content lifecycle. Describe what content needs attention, where it lives, why it needs action, and what result you want. -->
 
-        1. 
+        
 
-        ### Location
+        ### Lifecycle Action
+        <!-- Use a short action like create, update, review, approve, retire, move, or sync. -->
 
-        1. URL:
-        2. Section:
+        
 
-        ### Current Copy
+        ### Owner / Reviewer
+        <!-- Add the responsible person or review owner. -->
 
-        1. 
+        - Owner:
+        - Reviewer:
 
-        ### New Copy
+        ### Outcome
+        <!-- State the expected result when this is done. -->
 
-        1. 
+        
 
-        ### Assets
+        ### Timing
+        <!-- Add a due date or urgency if relevant. -->
 
-        1. 
+        - Due:
+        - Priority:
 
-        ### Acceptance Criteria
+        ### Notes
+        <!-- Add links, constraints, or dependencies. -->
 
-        - [ ] 
-
-        ### Context

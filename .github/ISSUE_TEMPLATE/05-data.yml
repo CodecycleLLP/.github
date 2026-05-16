@@ -1,25 +1,28 @@
 name: Data 💾
 description: Information or dataset change
-type: 'Data 💾'
+type: "Data 💾"
 projects: []
 
 body:
   - type: markdown
     attributes:
       value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
-      
+
   - type: textarea
     attributes:
       label: Description
       value: |
         ### Objective
+        <!-- Manage the data lifecycle. Describe what data or record needs attention, where it is, why it needs action, and what should be true when complete. -->
 
-        1. 
+        ### Details
+        <!-- Specify the dataset, record set, and exact change. -->
 
-        ### Notes
-
-        1. 
+        - Dataset:
+        - Records:
+        - Change:
 
         ### Relations
+        <!-- Link related issues, sources, or dependent records. -->
 
-        - Issue or link
+        - Related issue or link:

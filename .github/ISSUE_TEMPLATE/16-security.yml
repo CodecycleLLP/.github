@@ -12,181 +12,33 @@ body:
     attributes:
       label: Description
       value: |
-        # Security Issue Overview
+        ### Summary
+        <!-- State the vulnerability or risk in one sentence. -->
 
-        ## Summary
+        
 
-        Provide a short description of the security issue.
+        ### Impact
+        <!-- Include severity, systems, and exposed users. -->
 
-        ---
+        - Severity:
+        - Systems:
+        - Users:
 
-        # Sensitivity Check
+        ### Observed Behavior
+        <!-- Describe the insecure behavior factually. -->
 
-        Confirm no sensitive information is exposed in this issue.
+        
 
-        - [ ] No real secrets, credentials, tokens, or PII included
-        - [ ] Logs and screenshots are sanitized
+        ### Expected
+        <!-- State the secure behavior that should exist. -->
 
-        ---
+        
 
-        # Vulnerability Details
+        ### Safety
+        <!-- Confirm no secrets, tokens, or PII are included. -->
+        
+        - [ ] No secrets or PII
+        - [ ] Logs sanitized
 
-        ## Vulnerability Type
-
-        Examples:
-        - authentication bypass
-        - authorization issue
-        - SQL injection
-        - XSS
-        - SSRF
-        - secret exposure
-        - insecure configuration
-
-        - 
-
-        ---
-
-        ## Current Behavior
-
-        Describe the insecure or vulnerable behavior.
-
-        - What is happening?
-        - Why is it unsafe?
-
-        ---
-
-        ## Expected Secure Behavior
-
-        Describe the correct secure behavior.
-
-        ---
-
-        # Impact Assessment
-
-        ## Severity
-
-        - [ ] Critical
-        - [ ] High
-        - [ ] Medium
-        - [ ] Low
-
-        ## Affected Areas
-
-        - 
-        - 
-        - 
-
-        ## Potential Impact
-
-        Describe possible consequences.
-
-        Examples:
-        - unauthorized access
-        - data leakage
-        - privilege escalation
-        - service disruption
-
-        - 
-        - 
-
-        ---
-
-        # Reproduction / Demonstration
-
-        Provide safe reproduction steps.
-
-        ⚠️ Do NOT include dangerous exploit payloads or real credentials.
-
-        1. 
-        2. 
-        3. 
-        4. 
-
-        ---
-
-        # Environment
-
-        Provide relevant environment details.
-
-        - Application / Service:
-        - Version:
-        - Environment:
-        - Browser / Runtime:
-        - OS:
-
-        ---
-
-        # Investigation Notes
-
-        Document findings, observations, or suspected causes.
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Mitigation / Fix Plan
-
-        Describe proposed mitigation or remediation approach.
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Risks & Side Effects
-
-        Describe possible side effects of the fix.
-
-        Examples:
-        - stricter validation
-        - permission changes
-        - compatibility impact
-
-        - 
-        - 
-
-        ---
-
-        # Validation & Verification
-
-        Describe how the fix will be verified.
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Acceptance Criteria
-
-        Define conditions required for resolution.
-
-        - [ ] Vulnerability is no longer reproducible
-        - [ ] Security validation added where required
-        - [ ] No regression in existing functionality
-        - [ ] Related risks reviewed
-
-        ---
-
-        # Follow-Up Actions
-
-        Track future improvements or preventive actions.
-
-        - [ ]
-        - [ ]
-        - [ ]
-
-        ---
-
-        # References
-
-        Optional supporting material.
-
-        - Security advisories:
-        - Logs (sanitized):
-        - Related Issues:
-        - Related PRs:
-        - Documentation:
+        ### Notes
+        <!-- Add evidence, references, or remediation context. -->

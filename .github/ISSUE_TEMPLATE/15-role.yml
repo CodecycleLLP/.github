@@ -13,45 +13,27 @@ body:
       label: Description
       value: |
         ### Purpose
+        <!-- Explain why this role exists. -->
+        
 
-        Why does this role exist? What is its aim?
+        ### Scope
+        <!-- Define what this role owns or controls. -->
 
-        1. 
-
-        ### Domain
-
-        What is this role responsible for? What resources, processes, or areas does it control?
-
-        1.
+        
 
         ### Accountabilities
-
-        What specific tasks, decisions, or outcomes is this role accountable for?
-
-        - [ ] 
-
-        ### Qualifications
-
-        What skills, experience, or knowledge are required for this role?
+        <!-- List the duties this role must deliver. -->
         
-        1.
+        - [ ] Key duties
 
-        ### Powers
+        ### Authority
+        <!-- State what decisions this role can make. -->
 
-        What authority does this role have to make decisions or take actions?
-
-        1.
-
-        ### Policies
-
-        What rules or guidelines must this role follow?
-
-        1.
+        
 
         ### Measures
-
-        How will the success of this role be measured?
+        <!-- Describe how role success will be measured. -->
         
-        1.
 
         ### Context
+        <!-- Add links, policies, or related documents. -->

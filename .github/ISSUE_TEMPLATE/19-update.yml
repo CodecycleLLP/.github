@@ -12,17 +12,20 @@ body:
     attributes:
       label: Description
       value: |
-        ### Source of Update
+        ### Source
+        <!-- Identify the source of the update request or change. -->
 
-        1. 
+        
 
-        ### Update URL
+        ### Link
+        <!-- Paste the source URL or reference. -->
 
-        1. 
+        
 
-        ### Acceptance Criteria
+        ### Outcome
+        <!-- State what should change because of this update. -->
 
-        - [ ] Assign issue if implementation is needed.
-        - [ ] Team notified if necessary
+        
 
-        ### Context
+        ### Notes
+        <!-- Add dependencies, timing, or extra context. -->

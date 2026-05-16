@@ -12,94 +12,32 @@ body:
     attributes:
       label: Description
       value: |
-        ## Summary
+        ### Summary
+        <!-- State what should be upgraded in one line. -->
 
-        Describe the upgrade or enhancement.
+        
 
-        ---
+        ### Current State
+        <!-- Describe the limitation or current version. -->
 
-        ## Current State
+        
 
-        Describe current behavior or limitation.
+        ### Desired State
+        <!-- State the outcome after the upgrade. -->
 
-        - 
-        - 
+        
 
-        ---
+        ### Scope
+        <!-- Keep the include and exclude boundaries clear. -->
+        
+        - Include:
+        - Exclude:
 
-        ## Desired State
+        ### Risks
+        <!-- Capture compatibility, rollback, or side effects. -->
+        
+        - Compatibility:
+        - Rollback:
 
-        Describe expected updated behavior.
-
-        - 
-        - 
-
-        ---
-
-        # Scope
-
-        ## Included
-
-        - 
-        - 
-
-        ## Excluded
-
-        - 
-        - 
-
-        ---
-
-        # Requirements
-
-        ## Functional
-
-        - 
-        - 
-
-        ## Compatibility / Migration
-
-        - 
-        - 
-
-        ---
-
-        # Risks / Side Effects
-
-        - 
-        - 
-
-        ---
-
-        # Edge Cases
-
-        - 
-        - 
-
-        ---
-
-        # Acceptance Criteria
-
-        - [ ]
-        - [ ]
-        - [ ]
-
-        ---
-
-        # Testing Notes
-
-        ## Manual Testing
-
-        - 
-
-        ## Automated Testing
-
-        - 
-
-        ---
-
-        # References
-
-        - Docs:
-        - Related Issues:
-        - Related PRs:
+        ### Notes
+        <!-- Add links or edge cases that matter. -->

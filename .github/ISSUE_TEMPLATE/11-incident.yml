@@ -12,177 +12,30 @@ body:
     attributes:
       label: Description
       value: |
-        # Incident Overview
-
-        ## Summary
-
-        Provide a short description of the incident.
-
-        ---
-
-        # Incident Details
-
-        ## Current Situation
-
-        Describe what is happening.
-
-        - What failed?
-        - What systems are affected?
-        - What symptoms are visible?
-
-        ---
-
-        ## Expected Behavior
-
-        Describe expected normal behavior.
-
-        ---
-
-        # Impact Assessment
-
-        ## Severity
-
-        - [ ] Critical
-        - [ ] Major
-        - [ ] Minor
-
-        ## Affected Systems / Services
-
-        - 
-        - 
-        - 
-
-        ## User Impact
-
-        Describe who or what is affected.
-
-        Examples:
-        - login unavailable
-        - payments failing
-        - degraded API performance
-        - partial outage
-
-        ---
-
-        # Detection & Timeline
-
-        ## Timeline
-
-        - Incident Start Time:
-        - Detection Time:
-        - Mitigation Start Time:
-        - Resolution Time:
-        - Last Updated:
-
-        ---
-
-        # Investigation Notes
-
-        Document findings, observations, and investigation progress.
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Immediate Actions
-
-        List mitigation or containment actions being taken.
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Root Cause
-
-        Document confirmed or suspected root cause.
-
-        ## Suspected Root Cause
-
-        - 
-
-        ## Confirmed Root Cause
-
-        - 
-
-        ---
-
-        # Recovery / Resolution Plan
-
-        Describe how the incident will be resolved.
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Risks & Side Effects
-
-        Document potential risks during mitigation or recovery.
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Monitoring & Validation
-
-        Describe how stability and recovery will be verified.
-
-        - 
-        - 
-        - 
-
-        ---
-
-        # Acceptance Criteria
-
-        Define conditions required for incident resolution.
-
-        - [ ] Incident resolved
-        - [ ] Systems stable
-        - [ ] Monitoring confirms recovery
-        - [ ] Follow-up actions identified
-
-        ---
-
-        # Follow-Up Actions
-
-        Track improvements or preventive actions after resolution.
-
-        - [ ]
-        - [ ]
-        - [ ]
-
-        ---
-
-        # Communication
-
-        ## Incident Commander
-
-        - 
-
-        ## War Room / Communication Links
-
-        - 
-
-        ## Status Updates
-
-        - 
-
-        ---
-
-        # References
-
-        Optional supporting material.
-
-        - Dashboards:
-        - Logs:
-        - Related Issues:
-        - Postmortem:
-        - Screenshots:
+        ### Summary
+        <!-- State what is broken and who is affected. -->
+
+        
+
+        ### Impact
+        <!-- Include severity, systems, and users. -->
+        
+        - Severity:
+        - Systems:
+        - Users:
+
+        ### Incident Details
+        <!-- Describe the incident briefly and factually. -->
+
+        
+
+        ### Timing
+        <!-- Add the key incident timestamps if known. -->
+        
+        - Started:
+        - Detected:
+        - Mitigated:
+        - Resolved:
+
+        ### Notes
+        <!-- Add links to logs, actions, or updates. -->

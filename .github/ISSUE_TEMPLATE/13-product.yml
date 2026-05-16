@@ -13,14 +13,30 @@ body:
       label: Description
       value: |
         ### Purpose
-        What product lifecycle outcome should this issue drive?
+        <!-- State the product outcome and lifecycle this issue supports. -->
+
+        
+
+        ### Product Details
+        <!-- Add product context and lifecycle data. -->
+        
+        - Category:
+        - Type:
+        - Product:
+        - Owner:
+        - Status:
+        - Lifecycle stage:
 
         ### Deliverable
-        What should be shipped, produced, or completed?
+        <!-- Say what should be shipped or completed. -->
 
-        ### Acceptance Criteria
-        - [ ] Define what "done" means
-        - [ ] Confirm the expected outcome is met
+        
+
+        ### Acceptance
+        <!-- Use short checks that define done. -->
+        
+        - [ ] Done is defined
+        - [ ] Outcome is confirmed
 
         ### Notes
-        Add any short context, constraints, or links that matter.
+        <!-- Add constraints, links, or dependencies. -->

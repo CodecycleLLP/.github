@@ -12,57 +12,29 @@ body:
     attributes:
       label: Description
       value: |
-        ### Flag Objective
+        ### Objective
+        <!-- State the purpose of the flag in one line. -->
 
-        1.   
+        
 
         ### Configuration
+        <!-- Include the exact key, type, and default value. -->
+        
+        - Key:
+        - Type:
+        - Default value:
 
-        1. Flag key:
-        2. Flag type:
-        3. Default value:
-
-        ### Rollout plan
-
-        - Target audience:
-        - Phased rollout (percentage / cohorts):
+        ### Rollout
+        <!-- Capture audience, rollout size, and review date. -->
+        
+        - Audience:
+        - Percentage or cohort:
         - Start date:
-        - Evaluation date:
+        - Review date:
 
-        ### Targeting / Criteria
-
-        - Conditions for enabling (user segment, environment, region, etc.)
-
-        ### Success Metrics
-
-        1. Metric name - measurement method & target
-
-        ### Monitoring & Alerting
-
-        - Metrics/logs to monitor
-        - Alerting thresholds and recipients
-
-        ### Rollback
-
-        - Conditions that trigger rollback
-        - Steps to disable the flag immediately
-
-        ### Dependencies & Migration
-
-        - Services/components affected
-        - Any required data/schema migrations
-
-        ### Cleanup Plan
-
-        - Criteria for flag removal
-        - Estimated removal date
-
-        ### Acceptance Criteria
-
-        - [ ] Flag created with correct key and default state
-        - [ ] Targeting rules implemented and tested
-        - [ ] Metrics and monitoring in place
-        - [ ] Rollback procedure documented and validated
-
-
-        ### Context
+        ### Safety
+        <!-- Add monitoring, rollback, and cleanup details. -->
+        
+        - Monitoring:
+        - Rollback:
+        - Cleanup:

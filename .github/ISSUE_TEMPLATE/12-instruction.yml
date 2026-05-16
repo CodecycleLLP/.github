@@ -13,23 +13,22 @@ body:
       label: Description
       value: |
         ### Objective
+        <!-- Say what the instruction should help someone do. -->
+
         
-        1. 
 
-        ### Usage Scenario
+        ### Usage
+        <!-- Describe when the instruction should be used. -->
 
-        1. 
+        
 
         ### Context
+        <!-- Note the files, process, or workflow it applies to. -->
 
-        1. 
+        
 
-        ### Instruction (v1)
 
-        [File OR Folder Path]
+        ### Instruction
+        <!-- Paste the final instruction text here. -->
 
-        OR as following:
-
-        ```text
-        [Insert instruction text here]
-        ```
+        - [File/folder](www.github.com)

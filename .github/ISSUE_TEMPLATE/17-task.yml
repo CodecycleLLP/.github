@@ -13,11 +13,15 @@ body:
       label: Description
       value: |
         ### Objective
+        <!-- State the single task outcome. -->
 
-        1. 
+        
 
-        ### Acceptance Criteria
-
-        - [ ] 
+        ### Acceptance
+        <!-- Keep checks short and verifiable. -->
+        
+        - [ ] Done definition
+        - [ ] Output verified
 
         ### Context
+        <!-- Add links or constraints that affect the work. -->

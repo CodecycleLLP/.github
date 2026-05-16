@@ -13,27 +13,25 @@ body:
       label: Description
       value: |
         ### Objective
+        <!-- State what should be published and why. -->
 
-        1. 
+        
 
         ### Channel & Timing
-
-        1. Format:
-        2. Platform:
-        3. Go-Live Date & Time: 
+        <!-- Add the format, platform, and go-live time. -->
+        
+        - Type:
+        - Platform:
 
         ### Assets
+        <!-- List the final content and creative assets. -->
+        
+        - Content:
+        - Creative:
 
-        1. Content:
-        2. Creative/Thumbnail:
-
-        ### Acceptance Criteria
-
-        - [ ] Content finalized
-        - [ ] Creative/Thumbnail finalized
-        - [ ] Proofread & Approved
-        - [ ] SEO / Alt-text check
-        - [ ] Links tested (No 404s)
-        - [ ] Scheduled for publishing
-
-        ### Context
+        ### Acceptance
+        <!-- Confirm approval, link checks, and scheduling. -->
+        
+        - [ ] Final copy approved
+        - [ ] Links tested
+        - [ ] Scheduled
