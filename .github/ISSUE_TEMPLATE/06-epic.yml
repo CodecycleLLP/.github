@@ -12,19 +12,18 @@ body:
     attributes:
       label: Description
       value: |
-        ### Objectives
-
-        1. 
+        ### Goal
+        <!-- Define the business outcome this epic should deliver. -->
 
         ### Why
-
-        1. 
+        <!-- Explain why this work is worth doing now. -->
 
         ### Success Criteria
+        <!-- Use measurable outcomes that show the epic is done. -->
+        - [ ] Key result 1
+        - [ ] Key result 2
 
-        - [ ] 
-
-        ### Context
-
-        1. For scope check sub-issues.
-        2. [Link to relevant documentation, designs, or other resources]
+        ### Links
+        <!-- Link sub-issues, docs, designs, or other references. -->
+        - Sub-issues:
+        - References:

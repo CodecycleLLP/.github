@@ -8,26 +8,30 @@ body:
   - type: markdown
     attributes:
       value: |
-        🚀 Speed Leads, Ship Every Day.  
+        🚀 Speed Leads, Ship Every Day.
 
   - type: textarea
     attributes:
       label: Issue Description
       value: |
-        As a end user
-        I want to report
-        so that
-
-        ### Why this is important
+        ### Feedback
+        <!-- State the feedback in one sentence. -->
         
-        1. 
 
-        ### Files
+        ### Context
+        <!-- Say where this happened or what prompted it. -->
 
-        1. [File/Diagram Name](Link) - Brief description of the diagram
-
-        ### Acceptance Criteria
         
-        - [ ] 
 
-        ### Additional Context
+        ### Impact
+        <!-- Explain why this feedback matters. -->
+
+        
+
+        ### Evidence
+        <!-- Add one link, file, or example if available. -->
+        
+        - Link, file, screenshot, or example:
+
+        ### Next Step
+        <!-- Say what you want to happen next. -->

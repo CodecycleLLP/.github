@@ -1,0 +1,42 @@
+name: Product 📦
+description: Product lifecycle management
+type: "Product 📦"
+projects: ["StaytunedLLP/81"]
+
+body:
+  - type: markdown
+    attributes:
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        ### Purpose
+        <!-- State the product outcome and lifecycle this issue supports. -->
+
+        
+
+        ### Product Details
+        <!-- Add product context and lifecycle data. -->
+        
+        - Category:
+        - Type:
+        - Product:
+        - Owner:
+        - Status:
+        - Lifecycle stage:
+
+        ### Deliverable
+        <!-- Say what should be shipped or completed. -->
+
+        
+
+        ### Acceptance
+        <!-- Use short checks that define done. -->
+        
+        - [ ] Done is defined
+        - [ ] Outcome is confirmed
+
+        ### Notes
+        <!-- Add constraints, links, or dependencies. -->

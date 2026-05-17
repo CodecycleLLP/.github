@@ -12,9 +12,8 @@ body:
     attributes:
       label: Description
       value: |
-        ### Objective 
-        What is the primary purpose of this event?  
-        - 
+        ### Objective
+        <!-- Say what the event should achieve. -->
 
         ### Event Details
 

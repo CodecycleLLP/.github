@@ -1,0 +1,41 @@
+name: Incident 🚨
+description: Urgent operational disruption
+type: "Incident 🚨"
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        ### Summary
+        <!-- State what is broken and who is affected. -->
+
+        
+
+        ### Impact
+        <!-- Include severity, systems, and users. -->
+        
+        - Severity:
+        - Systems:
+        - Users:
+
+        ### Incident Details
+        <!-- Describe the incident briefly and factually. -->
+
+        
+
+        ### Timing
+        <!-- Add the key incident timestamps if known. -->
+        
+        - Started:
+        - Detected:
+        - Mitigated:
+        - Resolved:
+
+        ### Notes
+        <!-- Add links to logs, actions, or updates. -->

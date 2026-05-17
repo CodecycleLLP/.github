@@ -12,90 +12,47 @@ body:
     attributes:
       label: Description
       value: |
-        ## Summary
+        ### Summary
+        <!-- State the bug in one sentence. Include the failing area if known. -->
 
-        Provide a short description of the bug.
+        
 
-        ---
+        ### Current Behavior
+        <!-- Describe what actually happens. Keep it observable. -->
 
-        # Problem Details
+        
 
-        ## Current Behavior
+        ### Expected Behavior
+        <!-- Describe the correct outcome or behavior. -->
 
-        Describe what is happening.
+        
 
-        - What is broken?
-        - What is unexpected?
-        - What error or incorrect behavior occurs?
+        ### Reproduction
+        <!-- List the smallest reliable steps to reproduce. -->
 
-        ---
+        1.
+        2.
+        3.
 
-        ## Expected Behavior
-
-        Describe what should happen instead.
-
-        ---
-
-        # Steps to Reproduce
-
-        Provide clear reproduction steps.
-
-        1. 
-        2. 
-        3. 
-        4. 
-
-        ---
-
-        # Environment
-
-        Provide relevant environment details.
-
-        ## Application / Service
+        ### Environment
+        <!-- Include app, version, platform, and any relevant runtime details. -->
 
         - Name:
+        - App or service:
         - Version:
+        - Platform:
+        - Notes:
+        - Type: <!-- e.g., local, development, staging, production -->
+        - OS: <!-- e.g., Windows, macOS, Linux, iOS, Android -->
+        - Browser: <!-- e.g., Chrome, Firefox, Safari, Edge -->
+        - Runtime: <!-- e.g., Node.js, Python, Java -->
 
-        ## Environment Type
+        ### Impact
+        <!-- Explain user impact, severity, or frequency. -->
 
-        - [ ] Local
-        - [ ] Development
-        - [ ] Staging
-        - [ ] Production
+        - User impact:
+        - Severity:
+        - Frequency:
 
-        ## Platform Details
-
-        - OS:
-        - Browser:
-        - Device:
-        - Runtime / SDK Version:
-
-        ---
-
-        # Scope & Impact
-
-        ## Affected Areas
-
-        - 
-        - 
-        - 
-
-        ## Impact
-
-        Describe severity and impact.
-
-        Examples:
-        - broken functionality
-        - degraded performance
-        - data inconsistency
-        - security concern
-        - usability issue
-
-        ---
-
-        # Logs / Errors
-
-        Include relevant logs, stack traces, screenshots, or error messages.
-
-        ```text
-        Paste logs or errors here
+        ### Evidence
+        <!-- Paste only relevant logs, stack traces, or screenshots. -->

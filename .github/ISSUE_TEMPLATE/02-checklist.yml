@@ -13,24 +13,18 @@ body:
       label: Description
       value: |
         ### Objective
+        <!-- Say what this checklist should verify or complete. -->
 
-        1. 
+        
 
-        ### The List
+        ### Checklist
+        <!-- Link <filename>.checklist.md file path -->
 
-        #### Phase 1: Preparation
+        - [Filename](www.github.com)
 
-        - [ ] 1. 
-        - [ ] 2.
+        ### Blockers
+        <!-- List only blockers that stop progress. -->
+        
+        - None
 
-        #### Phase 2: Execution
-
-        - [ ] 1.
-        - [ ] 2.
-
-        #### Phase 3: review
-
-        - [ ] 1.
-        - [ ] 2.
-
-        ### Notes / Blockers
+        ### Context

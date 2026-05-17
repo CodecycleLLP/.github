@@ -13,25 +13,27 @@ body:
       label: Description
       value: |
         ### Objective
+        <!-- State the skill or topic to learn. -->
 
-        1. 
+        
 
         ### Curriculum
+        <!-- Keep this focused on the required topics. -->
 
-        1. 
+        
 
         ### Prerequisites
+        <!-- List any knowledge, access, or setup needed first. -->
 
-        1. 
+        
 
         ### Practice Output
+        <!-- Say what the learner should produce. -->
 
-        1. 
+        
 
-        ### Acceptance Criteria
+        ### Acceptance
+        <!-- Use checks that show the training was completed. -->
 
-        - [ ] Completed course modules
-        - [ ] Built the practice project
-        - [ ] Shared "Key Takeaways" with the team
-
-        ### Context
+        - [ ] Modules completed
+        - [ ] Practice work done

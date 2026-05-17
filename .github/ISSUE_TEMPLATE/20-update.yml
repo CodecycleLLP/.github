@@ -1,0 +1,31 @@
+name: Update 🆕
+description: This is new
+type: "Update 🆕"
+projects: ["StaytunedLLP/43"]
+
+body:
+  - type: markdown
+    attributes:
+      value: Let AI build, be orchestrator, ship instantly. 🤖🪄🚀
+
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        ### Source
+        <!-- Identify the source of the update request or change. -->
+
+        
+
+        ### Link
+        <!-- Paste the source URL or reference. -->
+
+        
+
+        ### Outcome
+        <!-- State what should change because of this update. -->
+
+        
+
+        ### Notes
+        <!-- Add dependencies, timing, or extra context. -->
